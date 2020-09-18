@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj": {}
+    "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj": {}
   },
   "projects": {
-    "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj": {
+    "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
+        "projectUniqueName": "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
         "projectName": "olsoftware",
-        "projectPath": "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
+        "projectPath": "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
         "packagesPath": "C:\\Users\\ADRIAN COSTA\\.nuget\\packages\\",
-        "outputPath": "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\obj\\",
+        "outputPath": "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

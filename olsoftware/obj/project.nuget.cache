@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3K8TQL3bj6OFhFpnCSxJYIQYpJ8gdoMkuYDaUuL7ORZG+/4w0/2gOcbLjxkPgVZcU8dZRAkH3rRd4WdMJC4knQ==",
+  "dgSpecHash": "MfwNA+mXndemvFfTy1F9GIJO/x87wqr1NqYPubhn6P+EpLprwdEbSqPqkNiZEvdtkimgv/9F7fjah7UM/JMGqg==",
   "success": true,
-  "projectFilePath": "E:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
+  "projectFilePath": "e:\\AIIF\\SegAll\\ENTERPRISE\\WEB\\BACK\\NET\\EJERCICIOS\\OL_SOFTWARE\\olsoftware\\olsoftware.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADRIAN COSTA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ADRIAN COSTA\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
