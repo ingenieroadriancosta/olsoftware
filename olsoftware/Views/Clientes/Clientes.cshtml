@@ -1,0 +1,75 @@
+@model olsoftware.Controllers.Responses;
+<h3>Ingresar cliente</h3>
+<form action="/addclientes" method="POST" >
+    <table class="@Model.tablestyle" style="@Model.thdstyle" >
+        <tr>
+            <th style="@Model.thdstyle" >Nombre</th>
+            <th style="@Model.thdstyle" >Apellido</th>
+            <th style="@Model.thdstyle" >Cédula</th>
+            <th style="@Model.thdstyle" >Teléfono</th>
+        </tr>
+        <tr>
+            <td style="@Model.thdstyle">
+                <input size="10"  type="text"maxlength="18"  onkeydown="return /[a-z]/i.test(event.key)" value="Adrian" name="name" required>
+            </td>
+            <td style="@Model.thdstyle">
+                <input size="10" type="text" maxlength="18" onkeydown="return /[a-z]/i.test(event.key)" value="Costa" name="lastname" required>
+            </td>
+            <td style="@Model.thdstyle">
+                <input size="10" type="text" maxlength="18"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" 
+                        value="1234567" name="idcard" required>
+            </td>
+            <td style="@Model.thdstyle">
+                <input size="10" type="text" maxlength="18"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" 
+                        value="3008053163" name="phone" required>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <button class="btn btn-primary">Ingresar</button> </td>
+        </tr>
+    </table>
+</form>
+
+
+<br><br>
+<div>
+    <h3>Buscar cliente</h3>
+    <form action="/Clientes/Clientes" method="GET" >
+        <a>Ingrese la Cédula</a>
+        <input type="text" maxlength="18"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" 
+                value="1234567" name="idcard" required>
+         <button class="btn btn-primary">Buscar</button> 
+    </form>
+</div>
+
+<br>
+<br>
+@if( Model.cli!=null ){
+    <table class="@Model.tablestyle" style="@Model.thdstyle" >
+        <tr>
+            <th style="@Model.thdstyle" >Nombre</th>
+            <th style="@Model.thdstyle" >Apellido</th>
+            <th style="@Model.thdstyle" >Cédula</th>
+            <th style="@Model.thdstyle" >Teléfono</th>
+        </tr>
+        <tr>
+            <td>@Model.cli.name</td>
+            <td>@Model.cli.lastname</td>
+            <td>@Model.cli.idcard</td>
+            <td>@Model.cli.phone</td>
+        </tr>
+    </table>
+}
+
+
+@if( Model.showmsg ){
+<script>
+        alert( '@Model.msg' );
+</script>
+}
